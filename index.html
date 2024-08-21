@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نبذة عني</title>
+    <!-- ربط Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 60px;
+            border-radius: 25px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+            max-width: 450px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .container:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        img {
+            border-radius: 50%;
+            width: 180px; /* تكبير الصورة */
+            height: 180px;
+            margin-bottom: 25px;
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.1) rotate(5deg);
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            background-color: #0077b5;
+            border-radius: 50%;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .social-links a.github {
+            background-color: #333;
+        }
+
+        .social-links a.facebook {
+            background-color: #3b5998;
+        }
+
+        .social-links a.instagram {
+            background-color: #e4405f;
+        }
+
+        .social-links a:hover {
+            transform: scale(1.1);
+        }
+
+        .cv-button {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #0077b5;
+            color: white;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .cv-button:hover {
+            background-color: #005582;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="IMG_2896.jpg" alt="صورتك">
+        <h1>Mahmoud Elsharkawy</h1>
+        <p>I am a Senior Computer Science student and iOS Developer. Always striving to gain more experience and build strong applications. I continuously work on improving my skills and keeping up with the latest updates in the tech world.</p>
+        
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/mahmoud-elsharkawy-1697a3278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/eng-mahmoud-sh" class="github"><i class="fab fa-github"></i></a>
+            <a href="https://www.facebook.com/elsharkawy772003?mibextid=LQQJ4d" class="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/mahmooud_sh_1?igsh=cGZ5YzUycTZpc3A5&utm_source=qr" class="instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <a href="mahmoud elsharkawy CV .pdf" class="cv-button" download>Download CV​⬤
